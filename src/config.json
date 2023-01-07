@@ -1,26 +1,21 @@
 {
   "currencyList": [
-    { "value": "AUS", "label": "Australia (AUS $)" },
+    { "value": "INR", "label": "India (Indian Rupiah)" },
     { "value": "CAD", "label": "Canada (CAD $)" },
     { "value": "USD", "label": "United States (US $)" },
     { "value": "EUR", "label": "Germany (EUR €)" },
     { "value": "HKD", "label": "Hong Kong (HKD $)" }
   ],
   "languageList": [
-    { "value": "english", "label": "English" },
-    { "value": "german", "label": "Deutsch" },
-    { "value": "mandarin", "label": "普通话" }
+    { "value": "english", "label": "English" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "facebook": "https://www.facebook.com/aranyacreationz/",
+    "instagram": "https://www.instagram.com/aranyacreations_crafts/",
+    "youtube": "https://www.youtube.com/channel/UCpjtViDQSGSl6pp0i-g6FOQ"
   },
   "paymentOptions": {
-    "visa": true,
-    "mastercard": true,
-    "amex": true
+    "amazonpay": true
   },
   "footerLinks": [
     {
@@ -68,47 +63,10 @@
       "menuLink": "/shop",
       "category": [
         {
-          "categoryLabel": "woman",
+          "categoryLabel": "decor",
           "submenu": [
             {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            }
-          ]
-        },
-        {
-          "categoryLabel": "men",
-          "submenu": [
-            {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "pants",
+              "menuLabel": "fridge magnets",
               "menuLink": "/shop"
             }
           ]
@@ -117,11 +75,11 @@
           "categoryLabel": "accessories",
           "submenu": [
             {
-              "menuLabel": "caps & scarves",
+              "menuLabel": "souvenirs",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "bags",
+              "menuLabel": "customized",
               "menuLink": "/shop"
             }
           ]
@@ -129,7 +87,7 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "blog",
       "menuLink": "/blog",
       "category": null
     },
@@ -153,24 +111,11 @@
     },
 
     {
-      "category": "size",
+      "category": "type",
       "items": [
-        { "name": "XXS", "value": false },
-        { "name": "XS", "value": false },
-        { "name": "S", "value": false },
-        { "name": "M", "value": false },
-        { "name": "L", "value": false },
-        { "name": "XL", "value": false },
-        { "name": "XXL", "value": false },
-        { "name": "Onesize", "value": false }
-      ]
-    },
-    {
-      "category": "gender",
-      "items": [
-        { "name": "Male", "value": false },
-        { "name": "Female", "value": false },
-        { "name": "Unisex", "value": false }
+        { "name": "food", "value": false },
+        { "name": "travel", "value": false },
+        { "name": "culture", "value": false }
       ]
     }
   ]
