@@ -29,7 +29,7 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/ac_banner_1.png'}
+        image={'/ac_banner_1.JPG'}
         title={'Handcrafted with love'}
         subtitle={'Discover new arrivals 2023'}
         ctaText={'shop now'}
@@ -88,7 +88,7 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
+        <Hero image={'/ac-magnetsOnFridge_1.JPG.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>MAGNETS</Link>
           <Link to={'/shop'}>WALL HANGINGS</Link>
