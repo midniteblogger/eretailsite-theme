@@ -29,9 +29,8 @@ const Header = (prop) => {
   const searchRef = createRef();
   const bannerMessage = 'Free shipping across India via Amazon, Flipkart and Meesho';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'Fredge Magnets',
+    'Souvenirs'
   ];
 
   const handleHover = (navObject) => {
