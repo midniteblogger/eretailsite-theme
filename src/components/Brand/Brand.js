@@ -10,7 +10,8 @@ const Brand = (props) => {
       role={'presentation'}
       onClick={() => navigate('/')}
     >
-      {/* <h4>ARANYA CREATIONS</h4> */}
+      { <h4 >ARANYA CREATIONS</h4> }
+      /*
       <svg
         width={127}
         height={24}
@@ -42,7 +43,9 @@ const Brand = (props) => {
           d="M121.59.48V1l2.4,1-4.87,10.72L114.39,3.2a5.11,5.11,0,0,0-1.67-2,4.47,4.47,0,0,0-2.65-.7h-4V1l1.6.48,6.56,13.12v7.36l-1.92.48v.48h9.12V22.4l-1.92-.48V14.24l5.6-12.32,2.56-1V.48Z"
         />
       </svg>
+      */
     </div>
+    --->
   );
 };
 
