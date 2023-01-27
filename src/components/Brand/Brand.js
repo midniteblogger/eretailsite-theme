@@ -45,7 +45,7 @@ const Brand = (props) => {
       </svg>
       */
     </div>
-    --->
+    
   );
 };
 
