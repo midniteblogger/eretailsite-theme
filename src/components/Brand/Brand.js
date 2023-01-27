@@ -11,7 +11,8 @@ const Brand = (props) => {
       onClick={() => navigate('/')}
     >
       { <h4 >ARANYA CREATIONS</h4> }
-      /*
+      </div>
+      /*  
       <svg
         width={127}
         height={24}
@@ -44,8 +45,6 @@ const Brand = (props) => {
         />
       </svg>
       */
-    </div>
-    
   );
 };
 
