@@ -26,7 +26,7 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
+          image={'./about.png'}
           title={`Sydney \n A British brand since 1860`}
         />
 
@@ -63,7 +63,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt brand'} src={'/about1.png'}></img>
+          <img alt={'shirt brand'} src={'./about1.png'}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -83,42 +83,32 @@ const AboutPage = (props) => {
                 refining its every last aspect.
               </p>
               <ol>
-                <li>Be an ecowear</li>
+                <li>Eco-friendly</li>
                 <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>Naturally handmade</li>
               </ol>
-              <img alt={'founder'} src={'/about2.png'}></img>
+              <img alt={'founder'} src={'./about2.png'}></img>
             </div>
             <h3>Sustainability</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+                Our founder, Sarita Mishra, had both an eye for creativity and a
+                desire to constantly improve. We are using the finest materials 
+                and invented our own stuff. There is no technology behind these
+                items and all items are totally handcrafted by our artists.
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+                Made in India
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+                With over 7 years spent creating handcrafted marvels
               </p>
             </div>
           </div>
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={'/about3.png'}></img>
+          <img alt={'shirt backwards'} src={'./about3.png'}></img>
         </div>
       </div>
     </Layout>
